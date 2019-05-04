@@ -36,8 +36,14 @@ namespace EmployeeWebSite.Models.DataManager
         
         public List<Employee> ReturnEmployees()
         {
-            List<Employee> employeeList = new List<Employee>();
-            employeeList = CreateEmployeeData();
+            List<Employee> employeeList = CreateEmployeeData();
+            return employeeList;
+        }
+
+        public List<Employee> AddNewEmployee(Employee newEmployee)
+        {
+            List<Employee> employeeList = CreateEmployeeData();
+            employeeList.Add(newEmployee);
             return employeeList;
         }
 

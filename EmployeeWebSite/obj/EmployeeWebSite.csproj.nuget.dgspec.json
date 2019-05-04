@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj": {}
+    "c:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj": {
+    "c:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj",
+        "projectUniqueName": "c:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj",
         "projectName": "EmployeeWebSite",
-        "projectPath": "C:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj",
+        "projectPath": "c:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\EmployeeWebSite.csproj",
         "packagesPath": "C:\\Users\\kevda\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\obj\\",
+        "outputPath": "c:\\Repos\\ecpi-workshop-lesson4\\EmployeeWebSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
