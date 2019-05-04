@@ -2764,6 +2764,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Home\\AddEmployee.cshtml",
+      "TargetPath": "Views\\Home\\AddEmployee.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

@@ -1,9 +1,9 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+@{
+    ViewData["Title"] = "Add New Employee";
 }
 
       <h1>Add New Emloyee</h1>
-        <form action="/Employee/AddNew/" method="POST">
+        <form action="/Employee/AddNew/" method="post" id="addemployeeform" >
             <label for="firstname">First Name</label>
             <input type="text" name="firstname" id="firstname" /> <br />
             <label for="lastname">Last Name</label>
@@ -16,7 +16,10 @@
             <input type="text" name="month" id="month" /> -
             <input type="text" name="day" id="day" /> - 
             <input type="text" name="year" id="year" /><br />
-            <input type="submit" name="btnSubmit" id="btnSubmit" value="Add New Employee">
+            <button type="button" name="btnSubmit" id="btnSubmit" onclick="AddNewEmployee();">Add New Employee</button> 
         </form>
 
-        <a href="/Home/AddEmployee/">Add Employee </a>
+        <table id="tblEmployees">
+
+        </table>
+        <script src="/js/addemployee.js"></script>

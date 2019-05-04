@@ -58,3 +58,4 @@ c:\Repos\ecpi-workshop-lesson4\EmployeeWebSite\obj\Debug\netcoreapp2.2\EmployeeW
 c:\Repos\ecpi-workshop-lesson4\EmployeeWebSite\obj\Debug\netcoreapp2.2\EmployeeWebSite.dll
 c:\Repos\ecpi-workshop-lesson4\EmployeeWebSite\obj\Debug\netcoreapp2.2\EmployeeWebSite.pdb
 C:\Repos\ecpi-workshop-lesson4\EmployeeWebSite\obj\Debug\netcoreapp2.2\EmployeeWebSite.csproj.CopyComplete
+c:\Repos\ecpi-workshop-lesson4\EmployeeWebSite\obj\Debug\netcoreapp2.2\Razor\Views\Home\AddEmployee.g.cshtml.cs
