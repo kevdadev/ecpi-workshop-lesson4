@@ -37,7 +37,8 @@ namespace EmployeeWebSite
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddDbContext<EmployeeContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:EmployeeDB"]));
+            services.AddDbContext<EmployeeContext>(opts => opts.UseNpgsql(Configuration["ConnectionString:EmployeeDB"]));
+           // services.AddDbContext<EmployeeContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:EmployeeDB"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

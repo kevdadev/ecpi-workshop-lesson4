@@ -12,6 +12,12 @@ namespace EmployeeWebSite.Controllers
 {
     public class EmployeeController : Controller
     {
+        private readonly EmployeeContext _context;
+
+        public EmployeeController(EmployeeContext context)
+        {
+                _context = context;
+        }
         [HttpGet]
         public ActionResult<IEnumerable<Employee>> Index()
         {
@@ -27,7 +33,6 @@ namespace EmployeeWebSite.Controllers
             var lastName = String.Empty;
             var emailAddress = String.Empty;
             var phoneNumber = String.Empty;
-            var employeeId = 3;
             var year = 0;
             var month = 0;
             var day = 0;
@@ -43,16 +48,25 @@ namespace EmployeeWebSite.Controllers
             //Mapping variable to object 
             Employee newEmployee = new Employee
             {
+                EmployeeID = 0,
                 FirstName = firstName,
                 LastName = lastName,
                 EmailAddress = emailAddress,
-                EmployeeID = employeeId,
                 PhoneNumber = phoneNumber,
                 DateOfBirth = new DateTime(year,month,day)
             };
+                _context.Employees.Add(newEmployee);
+                _context.SaveChanges();
 
+                        
+            
             Models.DataManager.EmployeeData employeeData = new Models.DataManager.EmployeeData();
-            List<Employee> employeeList = employeeData.AddNewEmployee(newEmployee);
+           
+
+            List<Employee> employeeList = new List<Employee>();
+            employeeList = _context.Employees.ToList();
+
+           // = employeeData.AddNewEmployee(newEmployee);
             return employeeList;
         }
 
