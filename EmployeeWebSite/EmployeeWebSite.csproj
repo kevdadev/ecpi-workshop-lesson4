@@ -10,4 +10,11 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.1.0"/>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.1"/>
   </ItemGroup>
+  <!--In the VS Code integrated terminal execute the command: 
+  
+      dotnet ef migrations add initial
+
+      then run dotnet ef database update -->
+
+
 </Project>
